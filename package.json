@@ -1,0 +1,18 @@
+{
+  "name": "estudonode",
+  "version": "1.0.0",
+  "description": "código de estudos de node js",
+  "license": "ISC",
+  "author": "Juan",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
