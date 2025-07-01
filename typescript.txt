@@ -1,0 +1,44 @@
+oque e typescript
+typescript e um superset do javascript criado pela Microsoft.
+ele adiciona tipagem estatica e recursos avancados no desenvolvimento de aplicacoes grandes
+e complexas.
+
+podemos chamar typescript de linguagem de programacao uma vez que utiliza boa parte da
+sintaxe de javascript adicionando a tipagem. porem o motor V8 do javascript nao reconhece
+nativamente o typescript. Para isso, precisamos fazer o processo de transpilacao.
+
+mas o que e transpilacao?
+e o processo onde o codigo de arquivos .ts e reescrito para js para assim poder ser
+executado pelo moto V8
+
+vantagens de usar o ts
+1. tipagem estatica - ajuda a capturar erros durante o desenvolvimento, reduz bugs causados
+por tipagem incorreta ou inesperada
+2. melhor autocompletar - IDE's como o VSCODE oferecem sugestoes mais precisas com base nos
+tipos definidos
+3. maias facilidade para refatoracao - alteracoes em nomes de variaveis, funcoes ou classes
+sao mais seguras e consistentes
+4. melhor escalabilidade - ideal para projetos grandes ou com muitas pessoas na equipe
+5. melhor documentacao - os tipos servem como documentacao automatica
+6. comunidade e ecossistema em crescimento - muitos frameworks modernos (React, Angular)
+oferecem suporte nativo ou excelente integracao ao ts
+
+Desvantagens de usar ts
+1. curva de aprendizado - para quem vem de js pode aparecer mais complicado
+2. mais codigo para escrever - o codigo e mais verboso usando ts
+3. tempo de compilacao - o codigo necessita ser compilado para rodar 
+3. configuracao inifial - requer instalacao e configuracao de pacotes para uso do ts
+5. integracao com bibliotecas JS alguma bibliotecas nao possuem tipos disponiveis ou tem
+tipos imcompletos
+6. falso sentimento de seguranca - a tipagem do ts e apenas em abiente de desenvolvimento.
+no ambiente de producao ou execucao os tipos desaparecem e erro ainda podem ocorrer caso
+ao se tenha o devido cuidado na validacao dos dados.
+
+npm install ou npm i - verifica e instala todas as dependencias listadas no package.json
+
+instalação global - uso sempre que um pacote precisa ficar disponivel em qualquer projetos
+
+npm i -g <nome_do_pacote>
+
+configurar typescript -
+npx tsc --init - cria um arquivo de configuração chamado tsconfig.json
