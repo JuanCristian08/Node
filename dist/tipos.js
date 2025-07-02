@@ -1,5 +1,5 @@
 "use strict";
-let nome = "alexandre"; //tipo string
+let nome = "juan"; //tipo string
 let numero = 10; //tipn number
 let numeroDecimal = 100.50;
 let booleano = true;
@@ -7,7 +7,7 @@ let booleano = true;
 let tipoArray = [1, 2, 3];
 let arrayString = ["A", "B", "C"];
 //tuplas - arrays com quantidade e tipos fixos no elemento
-let tupla1 = ["alexandre", 40];
+let tupla1 = ["juan", 40];
 //enum - conjunto de valores nomeados
 var Status;
 (function (Status) {
@@ -41,7 +41,7 @@ let soma = (v1, v2) => {
 soma(10, 10);
 //objetos tipados
 let pessoa = {
-    nome: "alexandre",
+    nome: "juan",
     idade: 24
 };
 //intersection types - permite unir tipos diferentes a um mesmo elemento
@@ -49,7 +49,7 @@ function imprimir(valor) {
     console.log(valor);
 }
 let emp = {
-    nome: "alexandre",
+    nome: "juan",
     salario: 50000
 };
 //generic types - permite criar funções, classes ou interfaces genéricas que funcionam com diferentes tipos

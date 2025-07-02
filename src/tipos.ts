@@ -1,4 +1,4 @@
-let nome: String = "alexandre" //tipo string
+let nome: String = "juan" //tipo string
 let numero: number = 10 //tipn number
 let numeroDecimal: number = 100.50
 let booleano: boolean = true
@@ -8,7 +8,7 @@ let tipoArray: number[] = [1,2,3]
 let arrayString: String[] = ["A", "B", "C"]
 
 //tuplas - arrays com quantidade e tipos fixos no elemento
-let tupla1: [String, number] = ["alexandre", 40];
+let tupla1: [String, number] = ["juan", 40];
 
 //enum - conjunto de valores nomeados
 enum Status {
@@ -52,7 +52,7 @@ soma(10, 10)
 
 //objetos tipados
 let pessoa: {nome:String; idade:number} = {
-    nome: "alexandre",
+    nome: "juan",
     idade: 24
 }
 //intersection types - permite unir tipos diferentes a um mesmo elemento
@@ -67,7 +67,7 @@ type funcionario = {salario:  number}
 type empregado = individuo & funcionario
 
 let emp: empregado = {
-    nome: "alexandre",
+    nome: "juan",
     salario : 50000
 }
 
